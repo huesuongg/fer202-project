@@ -1,6 +1,7 @@
 
 import axios from "axios";
 
+// axiosInstance.js: Cấu hình axios với baseURL và interceptor để tự động thêm token vào header nếu có
 const axiosInstance = axios.create({
   baseURL: "http://localhost:8080/",
   timeout: 10000,

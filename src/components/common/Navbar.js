@@ -1,3 +1,5 @@
+// Navbar.js: Chứa các component Navbar cho các layout khác nhau (Landing, Home)
+// LandingNavbar: Navbar cho trang landing, HomeNavbar: Navbar cho trang chính
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/common/navbar.css';

@@ -7,6 +7,7 @@ import { checkAuthStatus } from '../features/authenticate/authThunk';
 import route from './landing-router';
 import MainLayout from '../layouts/MainLayout';
 
+// private-route.js: Component bảo vệ route, chỉ cho phép truy cập nếu đã xác thực
 const PrivateRoute = ({ children }) => {
     const dispatch = useDispatch()
     // const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);

@@ -1,3 +1,4 @@
+// Home.js: Trang chính hiển thị các file/thư mục gần đây của người dùng
 import React from 'react';
 import { RootFolderViewer } from '../features/folder/components/RootFolderViewer';
 import { Container, Row } from "react-bootstrap";

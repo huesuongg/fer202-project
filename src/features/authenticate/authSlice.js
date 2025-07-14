@@ -1,3 +1,4 @@
+// authSlice.js: Slice Redux quản lý trạng thái xác thực người dùng (login, register, logout, kiểm tra trạng thái)
 import { createSlice } from "@reduxjs/toolkit";
 import { login, logout, register, checkAuthStatus } from "./authThunk";
 
