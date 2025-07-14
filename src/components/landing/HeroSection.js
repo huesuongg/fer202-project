@@ -1,16 +1,24 @@
-import "../../styles/landing/hero-section.css"
+import "../../styles/landing/hero-section.css";
 const HeroSection = () => {
   return (
     <section className="hero-section">
       <div className="overlay">
         <div className="hero-content">
-          <h1>Header for the page aaaa<br />First US medical school incorporates ChatGPT into teaching</h1>
+          <h1>
+            Lưu lại điều truyền cảm hứng.
+            <br />
+            Tạo nên điều mang dấu ấn riêng.
+          </h1>
           <p>
-            Vietnam’s foreign ministry has engaged with the Chinese Embassy and sent a diplomatic note to oppose a fishing ban on the South China Sea issued by China.
+            Khám phá kho ý tưởng không giới hạn – từ trang trí nhà cửa, thời
+            trang, ẩm thực đến nhiếp ảnh – tất cả đều được chia sẻ bởi những
+            người cùng đam mê như bạn.
           </p>
           <div className="hero-buttons">
             <button className="btn banner-btn primary">Tìm dịch vụ</button>
-            <button className="btn banner-btn secondary">Sản phẩm cửa hàng</button>
+            <button className="btn banner-btn secondary">
+              Sản phẩm cửa hàng
+            </button>
           </div>
         </div>
       </div>
