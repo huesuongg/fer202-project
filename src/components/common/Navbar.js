@@ -11,10 +11,10 @@ export const LandingNavbar = () => {
       </div>
 
       <nav className="nav-menu">
-        <a href="#">Trang chủ</a>
-        <a href="#">Sản phẩm</a>
-        <a href="#">Kế hoạch</a>
-        <a href="#">Hỗ trợ</a>
+        <a href="/">Trang chủ</a>
+        <a href="/itemList">Sản phẩm</a>
+        <a href="/plan">Kế hoạch</a>
+        <a href="/support">Hỗ trợ</a>
       </nav>
 
       <div className="search-bar">
