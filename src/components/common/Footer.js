@@ -8,7 +8,7 @@ const Footer = () => {
   <div className="footer-container">
     {/* <!-- Logo + Description --> */}
     <div className="footer-column logo-column">
-      <h2 className="logo-text">Unknown <span>Project</span></h2>
+      <h2 className="logo-text">Hat <span>De</span></h2>
       <p className="desc">
         Your one-stop destination for all wedding services and products. Making wedding planning simpler, more enjoyable, and stress-free.
       </p>
